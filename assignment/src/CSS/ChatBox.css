@@ -1,0 +1,23 @@
+.box{
+     width: 50% !important;
+     height: auto !important;
+     overflow: auto;
+     margin-top: 5%;
+     margin-left: 20%;
+}
+.send{
+    background: #F06292;
+    color: black;
+    width: 100%;
+    text-align: right;
+    padding: 5px;
+    border-radius: 20px;
+}
+.received{
+    background: lightgrey;
+    color: black;
+    width: 100%;
+    text-align: left;
+    padding: 5px;
+    border-radius: 20px;
+}

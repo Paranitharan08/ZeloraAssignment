@@ -1,0 +1,26 @@
+.MainBackground {
+    margin-top: 0;
+    position: fixed;
+    background-image: url("../images/loginbackground.jpg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card{
+        height: 350px;
+        width: 300px;
+        margin-top: 10%;
+        margin-left: 70%;
+        background-color: lightpink !important;
+        box-shadow: 5px 10px 20px #888888 !important;
+        border-radius: 20px !important;
+        padding: 10px;
+}
+@media only screen and (max-width:1000px){
+    .card{
+        margin-left: 20%;
+    }
+}
+
